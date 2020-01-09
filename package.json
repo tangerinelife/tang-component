@@ -21,6 +21,13 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangerinelife/tang-component.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@stencil/core": "^1.8.4"
   },
